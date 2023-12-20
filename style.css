@@ -128,7 +128,7 @@ ul {
 /*Second section */
 
 .secondPage {
-  background-image: url(/images/bg-curve-desktop.svg);
+  background-image: url(images/bg-curve-desktop.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -302,7 +302,7 @@ ul {
     width: 300px;
   }
   .secondPage {
-    background-image: url(/images/bg-curve-mobile.svg);
+    background-image: url(images/bg-curve-mobile.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
