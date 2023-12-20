@@ -1,0 +1,314 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,800");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Raleway;
+}
+
+/*nav bar  styles*/
+
+.bar .first img {
+  height: 40px;
+}
+
+nav {
+  width: 100%;
+  padding: 20px 30px;
+}
+
+.bar {
+  display: flex;
+}
+
+.first {
+  flex-grow: 2;
+}
+
+.first img {
+  height: 10px;
+}
+
+.second {
+  flex-grow: 1;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+.links {
+  position: absolute;
+  right: 0px;
+}
+
+.link a {
+  text-decoration: none;
+  margin: 0 30px 0 10px;
+  color: hsl(0, 0%, 64%);
+}
+
+.link a:hover {
+  cursor: pointer;
+}
+
+/*main styles*/
+
+.firstPage {
+  height: 70vh;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.text {
+  padding-right: 130px;
+  max-width: 500px;
+  flex-grow: 1;
+}
+
+.img img {
+  width: 400px;
+  flex-grow: 2;
+}
+
+.text h1 {
+  font-size: 26px;
+  padding-bottom: 20px;
+}
+
+.text p {
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+
+.text .getStarted {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.text .getStarted input {
+  width: 250px;
+  height: 40px;
+  padding: 20px;
+  border-radius: 7px;
+  border: solid 0.5px hsl(0, 0%, 75%);
+}
+
+.text .getStarted button {
+  width: 100px;
+  height: 43px;
+  background-color: hsl(224, 93%, 58%);
+  border: none;
+  border-radius: 7px;
+  margin-left: 20px;
+}
+
+.text .getStarted button :hover {
+  cursor: pointer;
+}
+
+.text .getStarted button a {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+}
+
+.firstPage .row .text {
+  align-items: center;
+  padding: 0;
+  margin: 10px;
+}
+
+/*Second section */
+
+.secondPage {
+  background-image: url(/images/bg-curve-desktop.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  margin-bottom: 30px;
+}
+
+.secondPage h1 {
+  font-size: 26px;
+}
+
+.secondPage p {
+  font-size: 13px;
+}
+
+.secondPage a {
+  color: hsl(170, 45%, 43%);
+}
+
+.secondPage a:hover {
+  cursor: pointer;
+}
+
+.card {
+  background-color: #fff;
+  width: 250px;
+  padding: 20px 30px;
+  margin-top: 20px;
+}
+
+.card .cardText p {
+  font-size: 12px;
+}
+
+.card .information {
+  display: flex;
+  flex-grow: 1;
+}
+
+.card .information img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.card .information .data {
+  margin-left: 3px;
+}
+
+.card .information .data h6 {
+  font-size: 6px;
+}
+
+.card .information .data p {
+  font-size: 8px;
+}
+
+.secondPage .row .text {
+  align-items: center;
+  padding: 0;
+  margin: 10px;
+}
+
+/*Third section */
+
+.thirdPage {
+  background-color: hsl(238, 22%, 44%);
+  padding: 20px 30px;
+  color: #fff;
+}
+
+.thirdPage .getStarted {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.thirdPage input {
+  width: 300px;
+  height: 40px;
+  border-radius: 7px;
+  border: none;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.thirdPage button {
+  height: 40px;
+  background-color: hsl(224, 93%, 58%);
+  border: none;
+  border-radius: 7px;
+}
+
+.thirdPage button a {
+  text-decoration: none;
+  padding: 0 15px;
+  font-family: 400;
+  color: #fff;
+}
+
+/*Footer Styles*/
+
+.footer {
+  margin-top: 20pxs;
+  padding-top: 20px;
+  background-color: hsl(243, 87%, 12%);
+  padding: 30px 0 0 0;
+  color: #fff;
+}
+
+.footer .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cont {
+  width: 300px;
+  height: 300px;
+}
+
+.cont p {
+  margin: 7px;
+}
+
+@media screen and (max-width: 850px) {
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .img {
+    margin-top: 50px;
+  }
+  .firstPage {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 569px) {
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .img {
+    margin-top: 50px;
+  }
+  .text {
+    width: 300px;
+    margin-left: 20px;
+  }
+  .getStarted button {
+    margin-top: 10px;
+    width: 250px;
+  }
+  .firstPage {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .first img {
+    height: 20px;
+    width: 20px;
+  }
+  .text {
+    width: 300px;
+    margin-left: 50px;
+  }
+  .img img {
+    width: 300px;
+  }
+  .secondPage {
+    background-image: url(/images/bg-curve-mobile.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+}
